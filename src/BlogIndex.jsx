@@ -10,6 +10,14 @@ const BlogIndex = () => {
 
   const posts = [
     {
+      slug: 'what-is-openclaw',
+      title: 'OpenClaw: The Automation Platform That Actually Understands Your Business',
+      excerpt: 'Zapier moves data. OpenClaw moves your business forward. Here\'s the difference that matters.',
+      date: 'Feb 24, 2026',
+      readTime: '5 min read',
+      category: 'Technology'
+    },
+    {
       slug: 'your-ads-work-your-follow-up-doesnt',
       title: 'Your Ads Work. Your Follow-Up Doesn\'t.',
       excerpt: '98% of leads die in your CRM. Not because they\'re bad. Because you respond too slow. Here\'s the fix.',
