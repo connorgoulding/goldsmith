@@ -26,20 +26,20 @@ const BlogIndex = () => {
       category: 'Tools'
     },
     {
-      slug: 'automation-transforming-real-estate',
-      title: 'How Automation Is Actually Transforming Real Estate',
-      excerpt: 'Not the buzzword version. The real version, with actual numbers from actual companies.',
-      date: 'Feb 19, 2026',
-      readTime: '6 min read',
-      category: 'Industry'
+      slug: 'how-automation-is-transforming-real-estate',
+      title: '10x ROI on Ads? Here\'s What Actually Worked.',
+      excerpt: 'A cosmetic surgery practice spent $50K on ads with nothing to show. Then we automated the follow-up.',
+      date: 'Feb 23, 2026',
+      readTime: '7 min read',
+      category: 'Case Study'
     },
     {
-      slug: 'save-time-cut-costs',
-      title: 'How to Actually Save Time and Cut Costs',
-      excerpt: 'Forget the productivity hacks. Here are 3 automations that save 10+ hours per week.',
-      date: 'Feb 18, 2026',
-      readTime: '7 min read',
-      category: 'Strategy'
+      slug: 'how-to-actually-save-time-and-cut-costs',
+      title: 'I Doubled Lead Volume for a 1,000-Agent Brokerage. Here\'s the Automation Stack.',
+      excerpt: 'No theory. No buzzwords. Just the exact automations that saved hiring managers 15 hours per week.',
+      date: 'Feb 22, 2026',
+      readTime: '6 min read',
+      category: 'Case Study'
     }
   ];
 

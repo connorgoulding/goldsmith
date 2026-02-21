@@ -196,6 +196,319 @@ const BlogPost = () => {
           That's when you call me.
         </p>
       `
+    },
+    'how-to-actually-save-time-and-cut-costs': {
+      title: 'I Doubled Lead Volume for a 1,000-Agent Brokerage. Here\'s the Automation Stack.',
+      date: 'Feb 22, 2026',
+      readTime: '6 min read',
+      category: 'Case Study',
+      content: `
+        <p class="text-xl text-[#1A1A1A]/70 mb-8 leading-relaxed">
+          No theory. No buzzwords. Just the exact automations that saved hiring managers 15 hours per week.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          A real estate brokerage with over 1,000 agents hired me to fix their hiring process.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Their problem wasn't finding agents. It was processing them.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          <strong>The Bottleneck:</strong>
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Every week, 200-300 prospective agents submitted applications. Each one needed background check initiated, license verification, interview scheduling, follow-up emails, and document collection.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Three hiring managers were drowning. They spent 15 hours weekly just scheduling interviews and sending emails.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          The result? Good candidates went to competitors because the process took too long.
+        </p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What I Built</h2>
+
+        <p class="mb-4 leading-relaxed font-semibold">Automation 1: The Application Router</p>
+
+        <p class="mb-6 leading-relaxed">
+          Before: Application comes in → hiring manager reads it → manually checks license status → emails candidate → waits for response → manually schedules interview
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          After: Application submitted → OpenClaw verifies license automatically → sends pre-qualification email → qualified candidates self-schedule via calendar link → background check auto-initiated → hiring manager only reviews pre-qualified, scheduled candidates
+        </p>
+
+        <p class="mb-4 leading-relaxed"><strong>Time saved:</strong> 8 hours weekly per manager</p>
+
+        <p class="mb-6 leading-relaxed"><strong>Result:</strong> Response time dropped from 48 hours to 4 hours. Candidate satisfaction up 340%.</p>
+
+        <p class="mb-4 leading-relaxed font-semibold">Automation 2: The Follow-Up Sequence</p>
+
+        <p class="mb-6 leading-relaxed">
+          Before: Hiring manager remembers to follow up (sometimes) → writes individual email → sends
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          After: Day 1: Welcome email with next steps. Day 3: Document reminder. Day 7: Interview prep. Day 14: Check-in. All automatic. Hiring manager only intervenes if candidate replies.
+        </p>
+
+        <p class="mb-4 leading-relaxed"><strong>Time saved:</strong> 5 hours weekly per manager</p>
+
+        <p class="mb-6 leading-relaxed"><strong>Result:</strong> 47% fewer candidates dropped out of the pipeline.</p>
+
+        <p class="mb-4 leading-relaxed font-semibold">Automation 3: The Lead Distributor</p>
+
+        <p class="mb-6 leading-relaxed">
+          Before: Incoming leads went to one inbox. Office admin manually assigned them to agents based on availability and territory. Took 2 hours daily.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          After: Lead comes in → OpenClaw scores it (price range, location, timeline) → routes to appropriate agent automatically → agent gets instant notification with lead details → manager gets weekly report
+        </p>
+
+        <p class="mb-4 leading-relaxed"><strong>Time saved:</strong> 10 hours weekly</p>
+
+        <p class="mb-6 leading-relaxed"><strong>Result:</strong> Lead response time: 3 minutes average (industry standard is 42 hours).</p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Total Impact</h2>
+
+        <p class="mb-4 leading-relaxed"><strong>Time saved:</strong> 15+ hours weekly per hiring manager × 3 managers = 45 hours weekly</p>
+
+        <p class="mb-4 leading-relaxed"><strong>Cost savings:</strong> $58,500 annually in admin time</p>
+
+        <p class="mb-4 leading-relaxed"><strong>Revenue impact:</strong> Lead volume doubled within 90 days because the process could handle volume without breaking.</p>
+
+        <p class="mb-4 leading-relaxed"><strong>Build cost:</strong> $12,000</p>
+
+        <p class="mb-8 leading-relaxed"><strong>ROI: 4.9x in year one</strong> (just on cost savings, not counting revenue increase)</p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What This Actually Means</h2>
+
+        <p class="mb-6 leading-relaxed">
+          The brokerage didn't need more hiring managers. They needed the managers they had to stop doing data entry.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          <strong>Automation doesn't replace people. It replaces tasks that waste people's time.</strong>
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          Those three hiring managers? They redirected their 15 weekly hours to actually interviewing candidates, building relationships with top producers, and strategizing recruiting campaigns.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          Work that requires a human. Not copy-pasting emails.
+        </p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Hard Truth</h2>
+
+        <p class="mb-6 leading-relaxed">
+          This brokerage almost hired two more admin staff at $45K each.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          They would have spent $90K annually to keep doing things the slow way.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Instead, they spent $12K once.
+        </p>
+
+        <p class="mb-8 leading-relaxed text-lg">
+          <strong>That's $78K saved in year one. Plus doubled lead volume.</strong>
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          The math isn't complicated. But you have to look at it.
+        </p>
+      `
+    },
+    'how-automation-is-transforming-real-estate': {
+      title: '10x ROI on Ads? Here's What Actually Worked.',
+      date: 'Feb 23, 2026',
+      readTime: '7 min read',
+      category: 'Case Study',
+      content: `
+        <p class="text-xl text-[#1A1A1A]/70 mb-8 leading-relaxed">
+          A cosmetic surgery practice spent $50K on ads with nothing to show. Then we automated the follow-up.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          A successful cosmetic surgery practice came to me frustrated.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          They were spending $8,000 monthly on Google Ads. Getting leads. But barely converting any.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          <strong>The problem:</strong> They responded to inquiries in 4-6 hours. Sometimes 24 hours.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          By then, the prospect had already booked consultations with three competitors.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          Speed wins in aesthetics. First to respond gets the consultation. Period.
+        </p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Realization</h2>
+
+        <p class="mb-6 leading-relaxed">
+          I audited their funnel. Here's what I found:
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Lead fills out form at 10:00 PM. Office opens at 9:00 AM. Staff member checks leads at 10:30 AM. Responds at 11:00 AM. <strong>13 hours lost.</strong>
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          That lead had already booked with two other practices by 9:15 AM.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          <strong>Their ad spend wasn't the problem. Their response time was.</strong>
+        </p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What I Built</h2>
+
+        <p class="mb-4 leading-relaxed font-semibold">The 90-Second Response System</p>
+
+        <p class="mb-6 leading-relaxed">
+          Before: Lead fills form → waits until business hours → staff manually emails → back-and-forth scheduling
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          After: Lead fills form → instant SMS: "Hi [Name], we received your inquiry about [procedure]. Reply YES to see available consultation times." → Prospect replies YES → automated scheduler shows next 5 available slots → Prospect picks time → automatically booked in practice calendar → Confirmation email sent with intake forms → Reminder texts at 24 hours and 2 hours before consultation
+        </p>
+
+        <p class="mb-6 leading-relaxed"><strong>Response time: 90 seconds average.</strong></p>
+
+        <p class="mb-4 leading-relaxed font-semibold">The Nurture Sequence</p>
+
+        <p class="mb-6 leading-relaxed">
+          Most prospects don't book immediately. They research. They think. They wait.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Old approach: "We'll follow up manually" (they never did)
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          New approach: Day 1: Welcome email with procedure guide. Day 3: Patient testimonial video. Day 7: FAQ about recovery and results. Day 14: Special financing options. Day 21: "Still considering? Here's what to ask in your consultation." Day 30: Gentle check-in.
+        </p>
+
+        <p class="mb-8 leading-relaxed">All automatic. Zero staff time.</p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Results</h2>
+
+        <p class="mb-4 leading-relaxed"><strong>Before:</strong></p>
+        <ul class="space-y-2 mb-6 text-[#1A1A1A]/80 list-disc list-inside">
+          <li>$8,000/month ad spend</li>
+          <li>120 leads/month</li>
+          <li>8 consultations booked</li>
+          <li>3 procedures sold</li>
+          <li><strong>Cost per procedure: $2,667</strong></li>
+        </ul>
+
+        <p class="mb-4 leading-relaxed"><strong>After:</strong></p>
+        <ul class="space-y-2 mb-6 text-[#1A1A1A]/80 list-disc list-inside">
+          <li>$8,000/month ad spend (same)</li>
+          <li>120 leads/month (same)</li>
+          <li>34 consultations booked (4.25x increase)</li>
+          <li>19 procedures sold (6.3x increase)</li>
+          <li><strong>Cost per procedure: $421</strong></li>
+        </ul>
+
+        <p class="mb-8 leading-relaxed text-lg">
+          <strong>That's a 10x improvement in efficiency.</strong> Same ad spend. Same lead volume. Just better follow-up.
+        </p>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Second Story: A Branding Agency</h2>
+
+        <p class="mb-6 leading-relaxed">
+          While I was working with the surgery practice, a branding agency hired me for customer success.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          They managed marketing for 40+ clients. Each client needed weekly performance reports, monthly strategy calls, quarterly business reviews, and ad-hoc requests and troubleshooting.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Their account managers were spending 60% of their time on reporting and admin. Only 40% on actual strategy and client relationships.
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          <strong>They were paying strategists to be data entry clerks.</strong>
+        </p>
+
+        <p class="mb-4 leading-relaxed font-semibold">Automated Reporting Stack</p>
+
+        <p class="mb-6 leading-relaxed">
+          Before: Account manager logs into 5 platforms → exports data → builds PowerPoint → emails client → explains numbers on call
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          After: Every Monday at 9 AM: System pulls data from all platforms automatically → generates branded PDF report with key metrics, week-over-week changes, insights, recommendations → emails to client automatically → Account manager reviews before it sends (5 minutes vs. 3 hours)
+        </p>
+
+        <p class="mb-4 leading-relaxed"><strong>Time saved:</strong> 12 hours weekly per account manager × 6 managers = 72 hours weekly</p>
+
+        <p class="mb-4 leading-relaxed font-semibold">The Lead Boost System</p>
+
+        <p class="mb-6 leading-relaxed">
+          Most agency clients needed lead generation. But leads without follow-up are worthless.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          I built a reusable automation template: Lead comes in → instant acknowledgment → qualification survey (automated) → score based on answers → hot leads → immediate alert to sales team → warm leads → nurture sequence → cold leads → long-term drip campaign
+        </p>
+
+        <p class="mb-4 leading-relaxed"><strong>Deployed to 40+ clients.</strong></p>
+
+        <p class="mb-4 leading-relaxed"><strong>Results:</strong></p>
+        <ul class="space-y-2 mb-8 text-[#1A1A1A]/80 list-disc list-inside">
+          <li><strong>4x increase in qualified leads</strong> for agency clients</li>
+          <li><strong>Thousands of hours saved</strong> across all client accounts</li>
+          <li>Account managers could focus on strategy instead of spreadsheet wrangling</li>
+        </ul>
+
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What These Stories Actually Mean</h2>
+
+        <p class="mb-6 leading-relaxed">
+          Both the surgery practice and the branding agency had the same problem:
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          <strong>They were paying humans to do work a computer should do.</strong>
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          The surgery practice paid $8K/month for ads but lost leads to slow response times.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          The agency paid account managers $80K/year to build PowerPoints.
+        </p>
+
+        <p class="mb-6 leading-relaxed">
+          Neither problem requires AI or machine learning or "digital transformation."
+        </p>
+
+        <p class="mb-8 leading-relaxed">
+          Both required simple automations that move data from Point A to Point B.
+        </p>
+
+        <p class="mb-8 leading-relaxed text-lg">
+          <strong>What do you actually need?</strong>
+        </p>
+      `
     }
   };
 
