@@ -27,16 +27,16 @@ const BlogIndex = () => {
     },
     {
       slug: 'how-automation-is-transforming-real-estate',
-      title: '10x ROI on Ads? Here\'s What Actually Worked.',
-      excerpt: 'A cosmetic surgery practice spent $50K on ads with nothing to show. Then we automated the follow-up.',
+      title: 'How We Delivered 10x ROI on Ads for a Cosmetic Surgery Practice',
+      excerpt: 'They spent $50K on ads with nothing to show. Then we built the follow-up system that changed everything.',
       date: 'Feb 23, 2026',
       readTime: '7 min read',
       category: 'Case Study'
     },
     {
       slug: 'how-to-actually-save-time-and-cut-costs',
-      title: 'I Doubled Lead Volume for a 1,000-Agent Brokerage. Here\'s the Automation Stack.',
-      excerpt: 'No theory. No buzzwords. Just the exact automations that saved hiring managers 15 hours per week.',
+      title: 'How We Doubled Lead Volume for a 1,000-Agent Brokerage',
+      excerpt: 'Three automations that saved hiring managers 15 hours per week and doubled their lead volume.',
       date: 'Feb 22, 2026',
       readTime: '6 min read',
       category: 'Case Study'

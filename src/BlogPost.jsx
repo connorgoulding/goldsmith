@@ -22,7 +22,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          I audited 47 companies last year. Forty-three of them had the same problem: they spent $50K-$200K on ads, then let leads rot in Salesforce for 3-5 days before anyone called them.
+          We audited 47 companies last year. Forty-three of them had the same problem: they spent $50K-$200K on ads, then let leads rot in Salesforce for 3-5 days before anyone called them.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -55,7 +55,7 @@ const BlogPost = () => {
         </ul>
 
         <p class="mb-6 leading-relaxed">
-          This isn't theory. I pulled these numbers from a study of 2,241 B2B companies by MIT and InsideSales.com.
+          This isn't theory. We pulled these numbers from a study of 2,241 B2B companies by MIT and InsideSales.com.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Why Most Companies Fail</h2>
@@ -69,7 +69,7 @@ const BlogPost = () => {
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What Actually Works</h2>
 
         <p class="mb-6 leading-relaxed">
-          The companies I work with use a simple automation:
+          The companies we work with use a simple automation:
         </p>
 
         <ol class="space-y-4 mb-8 text-[#1A1A1A]/80 list-decimal list-inside">
@@ -79,7 +79,7 @@ const BlogPost = () => {
         </ol>
 
         <p class="mb-6 leading-relaxed">
-          One property management company I built this for went from 2% lead-to-demo rate to 18%. Same ad spend. Same leads. Just faster response.
+          One property management company we built this for went from 2% lead-to-demo rate to 18%. Same ad spend. Same leads. Just faster response.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Fix Is Simple</h2>
@@ -89,7 +89,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          I built an OpenClaw skill that handles this entire flow. Takes 30 minutes to set up. Runs 24/7. Never calls in sick.
+          We built an OpenClaw skill that handles this entire flow. Takes 30 minutes to set up. Runs 24/7. Never calls in sick.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Try This Today</h2>
@@ -114,7 +114,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          I've built automations in both. Probably 200+ flows across Zapier, Make, and OpenClaw.
+          We've built automations in both. Probably 200+ flows across Zapier, Make, and OpenClaw.
         </p>
 
         <p class="mb-8 leading-relaxed font-bold text-lg">
@@ -151,7 +151,7 @@ const BlogPost = () => {
         </ul>
 
         <p class="mb-8 leading-relaxed">
-          I watched a client spend $847/month on Zapier for a flow that should've been 12 lines of code. They were paying $50 per automated email.
+          We watched a client spend $847/month on Zapier for a flow that should've been 12 lines of code. They were paying $50 per automated email.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Make: The Swiss Army Knife</h2>
@@ -182,7 +182,7 @@ const BlogPost = () => {
           OpenClaw is a brain. It can read unstructured data, make decisions based on context, learn from patterns, and build custom skills for your exact workflow.
         </p>
 
-        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">My Recommendation</h2>
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Our Recommendation</h2>
 
         <p class="mb-6 leading-relaxed">
           Start with Zapier for simple stuff. Graduate to Make when you need logic.
@@ -193,12 +193,12 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-8 leading-relaxed text-lg">
-          That's when you call me.
+          That's when you call us.
         </p>
       `
     },
     'how-to-actually-save-time-and-cut-costs': {
-      title: 'I Doubled Lead Volume for a 1,000-Agent Brokerage. Here\'s the Automation Stack.',
+      title: 'How We Doubled Lead Volume for a 1,000-Agent Brokerage',
       date: 'Feb 22, 2026',
       readTime: '6 min read',
       category: 'Case Study',
@@ -208,7 +208,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          A real estate brokerage with over 1,000 agents hired me to fix their hiring process.
+          A real estate brokerage with over 1,000 agents hired us to fix their hiring process.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -231,7 +231,7 @@ const BlogPost = () => {
           The result? Good candidates went to competitors because the process took too long.
         </p>
 
-        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What I Built</h2>
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What We Built</h2>
 
         <p class="mb-4 leading-relaxed font-semibold">Automation 1: The Application Router</p>
 
@@ -329,7 +329,7 @@ const BlogPost = () => {
       `
     },
     'how-automation-is-transforming-real-estate': {
-      title: '10x ROI on Ads? Here's What Actually Worked.',
+      title: 'How We Delivered 10x ROI on Ads for a Cosmetic Surgery Practice',
       date: 'Feb 23, 2026',
       readTime: '7 min read',
       category: 'Case Study',
@@ -339,7 +339,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          A successful cosmetic surgery practice came to me frustrated.
+          A successful cosmetic surgery practice came to us frustrated.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -361,7 +361,7 @@ const BlogPost = () => {
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Realization</h2>
 
         <p class="mb-6 leading-relaxed">
-          I audited their funnel. Here's what I found:
+          We audited their funnel. Here's what we found:
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -376,7 +376,7 @@ const BlogPost = () => {
           <strong>Their ad spend wasn't the problem. Their response time was.</strong>
         </p>
 
-        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What I Built</h2>
+        <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">What We Built</h2>
 
         <p class="mb-4 leading-relaxed font-semibold">The 90-Second Response System</p>
 
@@ -433,7 +433,7 @@ const BlogPost = () => {
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Second Story: A Branding Agency</h2>
 
         <p class="mb-6 leading-relaxed">
-          While I was working with the surgery practice, a branding agency hired me for customer success.
+          While we were working with the surgery practice, a branding agency hired us for customer success.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -467,7 +467,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          I built a reusable automation template: Lead comes in → instant acknowledgment → qualification survey (automated) → score based on answers → hot leads → immediate alert to sales team → warm leads → nurture sequence → cold leads → long-term drip campaign
+          We built a reusable automation template: Lead comes in → instant acknowledgment → qualification survey (automated) → score based on answers → hot leads → immediate alert to sales team → warm leads → nurture sequence → cold leads → long-term drip campaign
         </p>
 
         <p class="mb-4 leading-relaxed"><strong>Deployed to 40+ clients.</strong></p>
