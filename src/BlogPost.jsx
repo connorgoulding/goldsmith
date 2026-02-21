@@ -22,7 +22,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          We audited 47 companies last year. Forty-three of them had the same problem: they spent $50K-$200K on ads, then let leads rot in Salesforce for 3-5 days before anyone called them.
+          Here's the pattern we see again and again: Companies spend thousands on ads, then let leads rot in Salesforce for days before anyone calls them.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -55,7 +55,7 @@ const BlogPost = () => {
         </ul>
 
         <p class="mb-6 leading-relaxed">
-          This isn't theory. We pulled these numbers from a study of 2,241 B2B companies by MIT and InsideSales.com.
+          <strong>Source:</strong> <a href="https://www.linkedin.com/pulse/lead-response-management-study-dave-elkington/" target="_blank" rel="noopener noreferrer" class="text-[#CC5833] hover:underline">Lead Response Management Study</a>, Dr. James Oldroyd (MIT) and Dave Elkington (InsideSales.com), 2007. Analyzed 2,241 B2B companies and 15,000 leads over 3 years.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Why Most Companies Fail</h2>
@@ -151,7 +151,11 @@ const BlogPost = () => {
         </ul>
 
         <p class="mb-8 leading-relaxed">
-          We watched a client spend $847/month on Zapier for a flow that should've been 12 lines of code. They were paying $50 per automated email.
+          <strong>Zapier's pricing scales fast:</strong> Their Professional plan starts at $49/month for 2,000 tasks. At 50,000 tasks, you're looking at $500+/month. For complex multi-step workflows, we've seen companies spending $800+ monthly on what could be a simple custom build.
+        </p>
+
+        <p class="mb-6 leading-relaxed text-sm text-[#1A1A1A]/60">
+          <strong>Source:</strong> <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer" class="text-[#CC5833] hover:underline">Zapier Pricing</a>, accessed February 2026. Pricing tiers and task limits verified from official site.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Make: The Swiss Army Knife</h2>
@@ -273,7 +277,11 @@ const BlogPost = () => {
 
         <p class="mb-4 leading-relaxed"><strong>Time saved:</strong> 10 hours weekly</p>
 
-        <p class="mb-6 leading-relaxed"><strong>Result:</strong> Lead response time: 3 minutes average (industry standard is 42 hours).</p>
+        <p class="mb-6 leading-relaxed"><strong>Result:</strong> Lead response time: 3 minutes average.</p>
+
+        <p class="mb-6 leading-relaxed text-sm text-[#1A1A1A]/60">
+          <strong>Context:</strong> According to the <a href="https://www.linkedin.com/pulse/lead-response-management-study-dave-elkington/" target="_blank" rel="noopener noreferrer" class="text-[#CC5833] hover:underline">Lead Response Management Study</a> (MIT/InsideSales.com), the average B2B lead response time is 42 hours. Companies responding within 5 minutes are 391% more likely to qualify the lead.
+        </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Total Impact</h2>
 
