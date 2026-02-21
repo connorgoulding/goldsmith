@@ -1,0 +1,29 @@
+# Cloudflare Pages Redirects
+# Format: /old-path /new-path 301
+
+# Homepage stays homepage
+/ /
+
+# About page → Philosophy section on homepage  
+/about /#philosophy 301
+
+# Marketing page → Services section
+/marketing /#features 301
+
+# Resources → Homepage (until we build blog)
+/resources / 301
+
+# Individual blog posts → Homepage (temporarily)
+/resources/ads-generate-leads-but-98-go-to-waste---heres-how-to-fix-it / 301
+/resources/how-automation-is-transforming-the-real-estate-industry / 301
+/resources/zapier-vs-make-which-automation-tool-is-best-for-your-business / 301
+/resources/how-to-save-time-cut-costs-and-streamline-your-business-using-automation / 301
+
+# Contact → Scan page (main CTA)
+/contact /scan 301
+
+# WWW to non-WWW (or vice versa - pick one)
+https://goldsmithgrowth.com/* https://www.goldsmithgrowth.com/:splat 301
+
+# Old HTTP to HTTPS
+http://* https://:splat 301
