@@ -62,7 +62,7 @@ const LandingPage = () => {
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
             <a href="#features" className="hover:text-[#CC5833] transition-colors">Services</a>
             <a href="#philosophy" className="hover:text-[#CC5833] transition-colors">Process</a>
-            <button onClick={() => navigate('/blog')} className="hover:text-[#CC5833] transition-colors">Blog</button>
+            <button onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">BLOG</button>
           </div>
           <button 
             onClick={() => navigate('/scan')}
