@@ -55,15 +55,15 @@ const GoldsmithGrowth = () => {
       </div>
 
       {/* A. NAVBAR: The Floating Island */}
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-4xl">
-        <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-8 py-4 rounded-full flex justify-between items-center shadow-2xl transition-all duration-500 hover:w-full">
-          <div className="font-bold tracking-tighter text-[#2E4036] text-xl">GOLDSMITH</div>
-          <div className="flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
+      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl">
+        <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-4 md:px-8 py-4 rounded-full flex justify-between items-center shadow-2xl transition-all duration-500 hover:w-full">
+          <div className="font-bold tracking-tighter text-[#2E4036] text-lg md:text-xl">GOLDSMITH</div>
+          <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
             <a href="#features" className="hover:text-[#CC5833] transition-colors">Services</a>
             <a href="#philosophy" className="hover:text-[#CC5833] transition-colors">Process</a>
             <a href="#membership" className="hover:text-[#CC5833] transition-colors">Results</a>
           </div>
-          <button className="bg-[#2E4036] text-white px-6 py-2 rounded-full text-sm font-bold hover:scale-105 transition-transform active:scale-95">
+          <button className="bg-[#2E4036] text-white px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-bold hover:scale-105 transition-transform active:scale-95">
             Get Audit
           </button>
         </div>
@@ -133,7 +133,7 @@ const GoldsmithGrowth = () => {
               Traditional consultants ask: <br/>
               <span className="text-white">"What software should you buy?"</span>
             </h2>
-            <h2 className="text-[#CC5833] text-6xl md:text-8xl font-serif italic leading-none">
+            <h2 className="text-[#CC5833] text-4xl sm:text-5xl md:text-8xl font-serif italic leading-none">
               We ask: <br/>
               <span className="text-[#F2F0E9] not-italic font-sans font-bold uppercase tracking-tighter">What work should disappear?</span>
             </h2>
@@ -179,10 +179,10 @@ const GoldsmithGrowth = () => {
 // --- Sub-Components (Functional Artifacts) ---
 
 const ProtocolCard = ({ title, num, color }) => (
-  <div className={`protocol-card sticky top-0 h-screen w-full ${color} flex flex-col items-center justify-center p-24 text-white border-t border-white/10`}>
-    <span className="font-mono text-xl mb-8 tracking-widest opacity-50">[{num}]</span>
-    <h2 className="text-7xl md:text-[10vw] font-bold tracking-tighter uppercase">{title}</h2>
-    <div className="mt-12 h-[2px] w-40 bg-[#CC5833]" />
+  <div className={`protocol-card sticky top-0 h-screen w-full ${color} flex flex-col items-center justify-center px-6 py-12 md:p-24 text-white border-t border-white/10`}>
+    <span className="font-mono text-lg md:text-xl mb-4 md:mb-8 tracking-widest opacity-50">[{num}]</span>
+    <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-[10vw] font-bold tracking-tighter uppercase text-center">{title}</h2>
+    <div className="mt-6 md:mt-12 h-[2px] w-24 md:w-40 bg-[#CC5833]" />
   </div>
 );
 
