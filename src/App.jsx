@@ -59,83 +59,83 @@ const GoldsmithGrowth = () => {
         <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-8 py-4 rounded-full flex justify-between items-center shadow-2xl transition-all duration-500 hover:w-full">
           <div className="font-bold tracking-tighter text-[#2E4036] text-xl">GOLDSMITH</div>
           <div className="flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
-            <a href="#features" className="hover:text-[#CC5833] transition-colors">Protocol</a>
-            <a href="#philosophy" className="hover:text-[#CC5833] transition-colors">Philosophy</a>
-            <a href="#membership" className="hover:text-[#CC5833] transition-colors">Access</a>
+            <a href="#features" className="hover:text-[#CC5833] transition-colors">Services</a>
+            <a href="#philosophy" className="hover:text-[#CC5833] transition-colors">Process</a>
+            <a href="#membership" className="hover:text-[#CC5833] transition-colors">Results</a>
           </div>
           <button className="bg-[#2E4036] text-white px-6 py-2 rounded-full text-sm font-bold hover:scale-105 transition-transform active:scale-95">
-            Begin Scan
+            Get Audit
           </button>
         </div>
       </nav>
 
-      {/* B. HERO SECTION: Nature is the Algorithm */}
+      {/* B. HERO SECTION: Operations is the Algorithm */}
       <section ref={heroRef} className="relative h-screen w-full flex items-end p-12 md:p-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560" className="w-full h-full object-cover scale-110" alt="Deep Forest" />
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2560" className="w-full h-full object-cover scale-110" alt="Modern Office" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#2E4036] via-[#2E4036]/40 to-transparent" />
         </div>
         <div className="relative z-10 max-w-4xl">
           <h1 className="text-white leading-[0.85] hero-text">
-            <span className="block text-4xl md:text-6xl font-bold tracking-tight mb-2">Nature is the</span>
+            <span className="block text-4xl md:text-6xl font-bold tracking-tight mb-2">Operations is the</span>
             <span className="block text-7xl md:text-[12rem] font-serif italic font-light tracking-tighter">Algorithm.</span>
           </h1>
           <p className="hero-text text-white/70 mt-8 max-w-md text-lg font-light leading-relaxed">
-            Synthesizing biological imperatives with computational precision. We don't just optimize; we rewrite the baseline.
+            Most businesses run on chaos. We run on systems. Custom AI automations that eliminate the repetitive work eating your team's time.
           </p>
         </div>
       </section>
 
       {/* C. FEATURES: The Precision Micro-UI */}
       <section id="features" className="py-32 px-12 md:px-24 grid grid-cols-1 lg:grid-cols-3 gap-8 bg-[#F2F0E9]">
-        {/* Card 1: Diagnostic Shuffler */}
+        {/* Card 1: Workflow Audit */}
         <div className="bg-white p-10 rounded-[2.5rem] h-[500px] flex flex-col justify-between overflow-hidden shadow-sm border border-[#1A1A1A]/5 relative group">
           <div className="relative h-48 w-full">
             <DiagnosticShuffler />
           </div>
           <div>
-            <h3 className="text-3xl font-bold tracking-tight mb-4 text-[#2E4036]">Audit Intelligence</h3>
-            <p className="text-[#1A1A1A]/60">Deep-stack analysis of microbiome, hormonal, and epigenetic data points.</p>
+            <h3 className="text-3xl font-bold tracking-tight mb-4 text-[#2E4036]">Workflow Audit</h3>
+            <p className="text-[#1A1A1A]/60">Deep-stack analysis of your operations. We map every repetitive task, every manual handoff, every hour lost to busywork.</p>
           </div>
         </div>
 
-        {/* Card 2: Telemetry Typewriter */}
+        {/* Card 2: Live Automation */}
         <div className="bg-[#1A1A1A] p-10 rounded-[2.5rem] h-[500px] flex flex-col justify-between overflow-hidden relative">
           <div className="font-mono text-[#CC5833] text-sm space-y-2 pt-4">
             <div className="flex items-center gap-2 mb-4">
               <span className="w-2 h-2 bg-[#CC5833] rounded-full animate-pulse" />
-              <span className="uppercase tracking-widest">Live Telemetry</span>
+              <span className="uppercase tracking-widest">Live Automation</span>
             </div>
             <TelemetryTypewriter />
           </div>
           <div className="text-white">
-            <h3 className="text-3xl font-bold tracking-tight mb-4">Neural Stream</h3>
-            <p className="opacity-60 text-sm">Real-time circadian synchronization and cognitive load balancing.</p>
+            <h3 className="text-3xl font-bold tracking-tight mb-4">Live Automation</h3>
+            <p className="opacity-60 text-sm">Real-time visibility into your automated workflows. Watch the system work while your team focuses on what matters.</p>
           </div>
         </div>
 
-        {/* Card 3: Adaptive Regimen */}
+        {/* Card 3: Adaptive Systems */}
         <div className="bg-white p-10 rounded-[2.5rem] h-[500px] flex flex-col justify-between overflow-hidden shadow-sm border border-[#1A1A1A]/5 relative">
           <ProtocolScheduler />
           <div>
-            <h3 className="text-3xl font-bold tracking-tight mb-4 text-[#2E4036]">Adaptive Regimen</h3>
-            <p className="text-[#1A1A1A]/60">Autonomous scheduling that pivots based on biomarker fluctuations.</p>
+            <h3 className="text-3xl font-bold tracking-tight mb-4 text-[#2E4036]">Adaptive Systems</h3>
+            <p className="text-[#1A1A1A]/60">Automations that evolve with your business. New client? New workflow? The system adjusts automatically.</p>
           </div>
         </div>
       </section>
 
       {/* D. PHILOSOPHY: The Manifesto */}
       <section id="philosophy" className="bg-[#1A1A1A] py-40 px-12 md:px-24 relative overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2000" className="absolute inset-0 w-full h-full object-cover opacity-20 grayscale" alt="Organic Texture" />
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2000" className="absolute inset-0 w-full h-full object-cover opacity-20 grayscale" alt="Office Workspace" />
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-20 items-center">
             <h2 className="text-white/40 text-4xl font-bold leading-tight">
-              Modern medicine asks: <br/>
-              <span className="text-white">"What is wrong?"</span>
+              Traditional consultants ask: <br/>
+              <span className="text-white">"What software should you buy?"</span>
             </h2>
             <h2 className="text-[#CC5833] text-6xl md:text-8xl font-serif italic leading-none">
               We ask: <br/>
-              <span className="text-[#F2F0E9] not-italic font-sans font-bold uppercase tracking-tighter">What is optimal?</span>
+              <span className="text-[#F2F0E9] not-italic font-sans font-bold uppercase tracking-tighter">What work should disappear?</span>
             </h2>
           </div>
         </div>
@@ -143,9 +143,9 @@ const GoldsmithGrowth = () => {
 
       {/* E. PROTOCOL: Sticky Stacking */}
       <section className="relative">
-        <ProtocolCard title="Neural Synthesis" num="01" color="bg-[#2E4036]" />
-        <ProtocolCard title="Epigenetic Mapping" num="02" color="bg-[#CC5833]" />
-        <ProtocolCard title="Somatic Flow" num="03" color="bg-[#1A1A1A]" />
+        <ProtocolCard title="Process Discovery" num="01" color="bg-[#2E4036]" />
+        <ProtocolCard title="System Build" num="02" color="bg-[#CC5833]" />
+        <ProtocolCard title="Continuous Optimization" num="03" color="bg-[#1A1A1A]" />
       </section>
 
       {/* F. FOOTER */}
@@ -189,10 +189,10 @@ const ProtocolCard = ({ title, num, color }) => (
 const TelemetryTypewriter = () => {
   const [text, setText] = useState("");
   const messages = [
-    "Optimizing Circadian Rhythm...",
-    "Analyzing Microbiome Alpha Diversity...",
-    "Calibrating Cortisol Spike-Response...",
-    "Neural Load: 42% Capacity..."
+    "Processing Invoice Batch #2847...",
+    "Routing Lead: Qualified → Sales...",
+    "Generating Weekly Report...",
+    "System Load: 23% Capacity..."
   ];
   const [index, setIndex] = useState(0);
 
@@ -213,7 +213,7 @@ const TelemetryTypewriter = () => {
 };
 
 const DiagnosticShuffler = () => {
-  const [items, setItems] = useState(["Microbiome Score", "Cortisol Level", "Epigenetic Age"]);
+  const [items, setItems] = useState(["Manual Data Entry", "Status Reports", "Email Follow-ups"]);
 
   useEffect(() => {
     const timer = setInterval(() => {
