@@ -173,16 +173,20 @@ const LandingPage = () => {
               System Operational: v4.2.0
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-16 mb-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-16 mb-4">
             <ul className="space-y-4 text-sm font-medium uppercase tracking-widest opacity-60">
+              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/blog')}>Blog</li>
               <li className="hover:text-[#CC5833] cursor-pointer">Archive</li>
               <li className="hover:text-[#CC5833] cursor-pointer">Privacy</li>
-              <li className="hover:text-[#CC5833] cursor-pointer">Ethics</li>
             </ul>
             <ul className="space-y-4 text-sm font-medium uppercase tracking-widest opacity-60">
               <li className="hover:text-[#CC5833] cursor-pointer">LinkedIn</li>
               <li className="hover:text-[#CC5833] cursor-pointer">Insta</li>
               <li className="hover:text-[#CC5833] cursor-pointer">Terminal</li>
+            </ul>
+            <ul className="space-y-4 text-sm font-medium uppercase tracking-widest opacity-60 hidden md:block">
+              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/scan')}>Get Audit</li>
+              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/#philosophy')}>Process</li>
             </ul>
           </div>
         </div>

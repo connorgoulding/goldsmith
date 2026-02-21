@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
 import AutomationScan from './Scan';
 import ScanResults from './Results';
+import BlogIndex from './BlogIndex';
+import BlogPost from './BlogPost';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/scan" element={<AutomationScan />} />
         <Route path="/results" element={<ScanResults />} />
+        <Route path="/blog" element={<BlogIndex />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
     </Router>
   );
