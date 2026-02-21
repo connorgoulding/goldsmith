@@ -1,9 +1,6 @@
 # Cloudflare Pages Redirects
 # Format: /old-path /new-path 301
 
-# Homepage stays homepage
-/ /
-
 # About page → Philosophy section on homepage  
 /about /#philosophy 301
 
@@ -21,9 +18,3 @@
 
 # Contact → Scan page (main CTA)
 /contact /scan 301
-
-# WWW to non-WWW (or vice versa - pick one)
-https://goldsmithgrowth.com/* https://www.goldsmithgrowth.com/:splat 301
-
-# Old HTTP to HTTPS
-http://* https://:splat 301
