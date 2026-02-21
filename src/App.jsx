@@ -72,7 +72,7 @@ const GoldsmithGrowth = () => {
       {/* B. HERO SECTION: Operations is the Algorithm */}
       <section ref={heroRef} className="relative h-screen w-full flex items-end p-12 md:p-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2560" className="w-full h-full object-cover scale-110" alt="Modern Office" />
+          <img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=2560" className="w-full h-full object-cover scale-110" alt="Symmetrical Architecture" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#2E4036] via-[#2E4036]/40 to-transparent" />
         </div>
         <div className="relative z-10 max-w-4xl">
