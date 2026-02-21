@@ -51,7 +51,10 @@ const AutomationScan = () => {
     setAnswers(prev => ({ ...prev, [questionId]: value }));
     
     if (currentStep < questions.length - 1) {
-      setTimeout(() => setCurrentStep(currentStep + 1), 300);
+      setTimeout(() => {
+        setCurrentStep(currentStep + 1);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 300);
     } else {
       setTimeout(() => navigate('/results', { state: { answers: { ...answers, [questionId]: value } } }), 300);
     }
@@ -117,7 +120,10 @@ const AutomationScan = () => {
           {/* Back Button */}
           {currentStep > 0 && (
             <button
-              onClick={() => setCurrentStep(currentStep - 1)}
+              onClick={() => {
+                setCurrentStep(currentStep - 1);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
               className="mt-8 text-[#1A1A1A]/60 hover:text-[#CC5833] font-medium transition-colors"
             >
               ← Back
