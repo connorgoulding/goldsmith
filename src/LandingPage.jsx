@@ -62,7 +62,7 @@ const LandingPage = () => {
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
             <a href="#features" className="hover:text-[#CC5833] transition-colors">Services</a>
             <a href="#philosophy" className="hover:text-[#CC5833] transition-colors">Process</a>
-            <a href="#membership" className="hover:text-[#CC5833] transition-colors">Results</a>
+            <button onClick={() => navigate('/blog')} className="hover:text-[#CC5833] transition-colors">Blog</button>
           </div>
           <button 
             onClick={() => navigate('/scan')}
@@ -148,9 +148,9 @@ const LandingPage = () => {
               Traditional consultants ask: <br/>
               <span className="text-white">"What software should you buy?"</span>
             </h2>
-            <h2 className="text-[#CC5833] text-4xl sm:text-5xl md:text-8xl font-serif italic leading-none">
+            <h2 className="text-[#CC5833] text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif italic leading-tight">
               We ask: <br/>
-              <span className="text-[#F2F0E9] not-italic font-sans font-bold uppercase tracking-tighter">What work should disappear?</span>
+              <span className="text-[#F2F0E9] not-italic font-sans font-bold uppercase tracking-tight">What work should disappear?</span>
             </h2>
           </div>
         </div>
