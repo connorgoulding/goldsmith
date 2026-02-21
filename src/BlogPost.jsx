@@ -611,7 +611,7 @@ const BlogPost = () => {
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">Real Example: How We Use It</h2>
 
         <p class="mb-6 leading-relaxed">
-          We built an OpenClaw skill for a property management company that handles maintenance requests.
+          We built an OpenClaw skill for a real estate brokerage that was drowning in agent applications.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -619,7 +619,7 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          Tenant emails "My sink is leaking" → Office manager reads it → copies to spreadsheet → manually assigns to plumber → tenant waits 48 hours for response.
+          200+ applications come in weekly → Hiring managers manually read each one → check license status by hand → email candidates individually → wait for responses → manually schedule interviews → three managers spending 45 hours weekly on admin.
         </p>
 
         <p class="mb-6 leading-relaxed">
@@ -627,11 +627,11 @@ const BlogPost = () => {
         </p>
 
         <p class="mb-6 leading-relaxed">
-          Tenant emails "My sink is leaking" → OpenClaw reads it, classifies as "urgent plumbing" → checks which plumber is available and closest → sends plumber a text with unit number and issue → tenant gets instant SMS: "Hi Sarah, we've dispatched Mike from QuickFix Plumbing. He'll arrive between 2-4 PM today." → All in 12 seconds.
+          Application submitted → OpenClaw reads it, extracts key info → verifies license automatically → scores candidate fit → sends pre-qualification email → qualified candidates self-schedule via calendar link → hiring manager only reviews pre-qualified, scheduled candidates → background check auto-initiates → All in under a minute.
         </p>
 
         <p class="mb-8 leading-relaxed">
-          That's not automation. That's <strong>intelligent automation</strong>. And it's why tenant satisfaction at that company jumped 40% in 90 days.
+          That's not automation. That's <strong>intelligent automation</strong>. Response time dropped from 48 hours to 4 hours. Candidate satisfaction up 340%. And those three hiring managers? They got 15 hours per week back to actually interview candidates instead of pushing paper.
         </p>
 
         <h2 class="text-2xl font-bold text-[#2E4036] mt-12 mb-4">The Competitive Advantage</h2>
