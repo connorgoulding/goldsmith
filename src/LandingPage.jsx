@@ -62,8 +62,8 @@ const LandingPage = () => {
         </div>
         <div className="relative z-10 max-w-4xl">
           <h1 className="text-white leading-[0.9] hero-text">
-            <span className="block text-4xl md:text-6xl font-bold tracking-tight mb-2">McKinsey Gives You Decks.</span>
-            <span className="block text-5xl md:text-[8rem] font-serif italic font-light tracking-tighter">We Give You Working Systems.</span>
+            <span className="block text-3xl md:text-5xl font-light tracking-wide mb-4 opacity-80">They give you PowerPoints.</span>
+            <span className="block text-6xl md:text-[10rem] font-serif italic font-light tracking-tighter">We give you working systems.</span>
           </h1>
           <p className="hero-text text-white/80 mt-8 max-w-xl text-lg font-light leading-relaxed">
             Operations, AI, and marketing — one team that diagnoses AND builds. Not another 200-slide presentation. Actual working systems in 4-8 weeks.

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './LandingPage';
+import ConsultingPage from './ConsultingPage';
 import AutomationPage from './AutomationPage';
 import MarketingCMOPage from './MarketingCMOPage';
 import AutomationScan from './Scan';
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/consulting" element={<ConsultingPage />} />
         <Route path="/automation" element={<AutomationPage />} />
         <Route path="/marketing" element={<MarketingCMOPage />} />
         <Route path="/scan" element={<AutomationScan />} />
