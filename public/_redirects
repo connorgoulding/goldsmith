@@ -4,8 +4,8 @@
 # About page → Philosophy section on homepage  
 /about /#philosophy 301
 
-# Marketing page → Services section
-/marketing /#features 301
+# Marketing page - Now a dedicated landing page
+# /marketing /#features 301  # DISABLED - Using React Router now
 
 # Resources → Homepage (until we build blog)
 /resources / 301
