@@ -69,9 +69,9 @@ const ConsultingPage = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-[#2E4036] via-[#2E4036]/60 to-transparent" />
         </div>
         <div className="relative z-10 w-full max-w-5xl">
-          <h1 className="text-white leading-[1.1] md:leading-[0.95] hero-text">
-            <span className="block text-2xl md:text-5xl font-light tracking-wide mb-3 md:mb-6 opacity-90">They give you PowerPoints.</span>
-            <span className="block text-5xl md:text-8xl lg:text-[10rem] font-serif italic font-light tracking-tight md:tracking-tighter">We give you working systems.</span>
+          <h1 className="text-white leading-[1.2] md:leading-[1.1] hero-text">
+            <span className="block text-2xl md:text-5xl font-light tracking-wide mb-4 md:mb-8 opacity-90">They give you PowerPoints.</span>
+            <span className="block text-5xl md:text-7xl lg:text-8xl xl:text-[10rem] font-serif italic font-light tracking-tight">We give you working systems.</span>
           </h1>
           <p className="hero-text text-white/70 mt-6 md:mt-8 max-w-xl text-base md:text-lg font-light leading-relaxed">
             Operations, AI, and marketing — one team that diagnoses AND builds. Not another 200-slide presentation. Actual working systems in 4-8 weeks.
