@@ -74,7 +74,7 @@ const ConsultingPage = () => {
             <span className="block text-5xl md:text-7xl lg:text-8xl xl:text-[10rem] font-serif italic font-light tracking-tight">We give you working systems.</span>
           </h1>
           <p className="hero-text text-white/70 mt-6 md:mt-8 max-w-xl text-base md:text-lg font-light leading-relaxed">
-            Operations, AI, and marketing — one team that diagnoses AND builds. Not another 200-slide presentation. Actual working systems in 4-8 weeks.
+            Operations, AI, and marketing — one team that diagnoses AND builds. Not another strategy deck. Actual working systems in 4-8 weeks.
           </p>
           <div className="hero-text mt-6 md:mt-8">
             <button 

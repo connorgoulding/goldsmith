@@ -217,7 +217,7 @@ const LandingPage = () => {
           <div className="mb-12">
             <span className="text-[#CC5833] text-sm font-bold uppercase tracking-widest">Why We Win</span>
             <h2 className="text-4xl md:text-6xl font-bold text-[#2E4036] mt-4 leading-tight">
-              Strategy That Ships
+              Plans vs. Systems
             </h2>
           </div>
 
@@ -225,30 +225,30 @@ const LandingPage = () => {
             <table className="w-full">
               <thead>
                 <tr className="border-b-2 border-slate-200">
-                  <th className="text-left py-4 font-bold text-[#2E4036]">The Big 4</th>
+                  <th className="text-left py-4 font-bold text-[#2E4036]">Typical Consultants</th>
                   <th className="text-left py-4 font-bold text-[#CC5833]">Goldsmith</th>
                 </tr>
               </thead>
               <tbody className="text-[#1A1A1A]/80">
                 <tr className="border-b border-slate-100">
-                  <td className="py-4">200-slide decks</td>
+                  <td className="py-4">Slide decks & reports</td>
                   <td className="py-4 font-semibold text-[#2E4036]">Working systems</td>
                 </tr>
                 <tr className="border-b border-slate-100">
-                  <td className="py-4">Junior associates</td>
+                  <td className="py-4">Handoffs to junior staff</td>
                   <td className="py-4 font-semibold text-[#2E4036]">Founders who build</td>
                 </tr>
                 <tr className="border-b border-slate-100">
-                  <td className="py-4">6-month timelines</td>
+                  <td className="py-4">3-6 month timelines</td>
                   <td className="py-4 font-semibold text-[#2E4036]">4-8 week delivery</td>
                 </tr>
                 <tr className="border-b border-slate-100">
-                  <td className="py-4">$500K+ projects</td>
+                  <td className="py-4">$50K+ retainers</td>
                   <td className="py-4 font-semibold text-[#2E4036]">$15-75K builds</td>
                 </tr>
                 <tr>
-                  <td className="py-4">Insights</td>
-                  <td className="py-4 font-semibold text-[#2E4036]">Outcomes</td>
+                  <td className="py-4">Insights & advice</td>
+                  <td className="py-4 font-semibold text-[#2E4036]">Outcomes & systems</td>
                 </tr>
               </tbody>
             </table>
