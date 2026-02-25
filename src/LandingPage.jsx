@@ -61,7 +61,7 @@ const LandingPage = () => {
           <div className="font-bold tracking-tighter text-[#2E4036] text-lg md:text-xl">GOLDSMITH</div>
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
             <a href="#features" className="hover:text-[#CC5833] transition-colors">Services</a>
-            <button onClick={() => { navigate('/marketing'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">Marketing</button>
+            <button onClick={() => { navigate('/marketing'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">MARKETING</button>
             <button onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">BLOG</button>
           </div>
           <button 
