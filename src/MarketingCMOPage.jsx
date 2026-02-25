@@ -60,9 +60,8 @@ const MarketingCMOPage = () => {
         <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-4 md:px-8 py-4 rounded-full flex justify-between items-center shadow-2xl transition-all duration-500 hover:w-full">
           <div className="font-bold tracking-tighter text-[#2E4036] text-lg md:text-xl">GOLDSMITH</div>
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
-            <a href="#services" className="hover:text-[#CC5833] transition-colors">Services</a>
-            <a href="#process" className="hover:text-[#CC5833] transition-colors">Process</a>
-            <button onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">Blog</button>
+            <button onClick={() => { navigate('/'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">Automation</button>
+            <button onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">BLOG</button>
           </div>
           <button 
             onClick={() => navigate('/scan')}
@@ -237,15 +236,15 @@ const MarketingCMOPage = () => {
                 1
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#2E4036] mb-3">Series B SaaS Company</h3>
+                <h3 className="text-2xl font-bold text-[#2E4036] mb-3">1,000-Agent Real Estate Brokerage</h3>
                 <p className="text-[#1A1A1A]/80 mb-4">
-                  <strong>Before:</strong> 3 marketers spending 25 hours/week on production work
+                  <strong>Before:</strong> Three hiring managers spending 45 hours/week on admin work (scheduling, follow-ups, lead routing)
                 </p>
                 <p className="text-[#1A1A1A]/80 mb-4">
-                  <strong>After:</strong> Same output in 6 hours. The other 19 hours went to strategy, testing, growth initiatives.
+                  <strong>After:</strong> Same work in 5 hours. Response time dropped from 48 hours to 4 hours. Candidate satisfaction up 340%.
                 </p>
                 <div className="inline-block bg-[#D4BE2E] text-[#152546] px-4 py-2 rounded-full font-bold">
-                  Result: Pipeline increased 40% in 90 days
+                  Result: Lead volume doubled in 90 days, $58,500 annual savings
                 </div>
               </div>
             </div>
@@ -257,19 +256,51 @@ const MarketingCMOPage = () => {
                 2
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#2E4036] mb-3">Consumer Brand ($50M Revenue)</h3>
+                <h3 className="text-2xl font-bold text-[#2E4036] mb-3">Cosmetic Surgery Practice</h3>
+                <p className="text-[#1A1A1A]/80 mb-4">
+                  Spending $8,000/month on Google Ads but barely converting leads due to slow response times (4-24 hours)
+                </p>
+                <div className="grid grid-cols-2 gap-4 mb-4">
+                  <div className="text-center p-3 bg-red-50 rounded-lg">
+                    <div className="text-sm text-[#1A1A1A]/60 mb-1">Before</div>
+                    <div className="text-2xl font-bold text-red-600">$2,667</div>
+                    <div className="text-xs text-[#1A1A1A]/70">Cost per procedure</div>
+                  </div>
+                  <div className="text-center p-3 bg-green-50 rounded-lg">
+                    <div className="text-sm text-[#1A1A1A]/60 mb-1">After</div>
+                    <div className="text-2xl font-bold text-green-600">$421</div>
+                    <div className="text-xs text-[#1A1A1A]/70">Cost per procedure</div>
+                  </div>
+                </div>
+                <div className="inline-block bg-[#D4BE2E] text-[#152546] px-4 py-2 rounded-full font-bold">
+                  Result: 10x improvement in efficiency, 6.3x more procedures sold
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200 mt-8">
+            <div className="flex items-start gap-6">
+              <div className="w-16 h-16 bg-[#CC5833] rounded-2xl flex items-center justify-center text-white text-2xl font-bold shrink-0">
+                3
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold text-[#2E4036] mb-3">Branding Agency (40+ Clients)</h3>
+                <p className="text-[#1A1A1A]/80 mb-4">
+                  Account managers spending 60% of time on reporting and admin instead of strategy
+                </p>
                 <div className="grid grid-cols-3 gap-4 mb-4">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#CC5833]">70%</div>
-                    <div className="text-sm text-[#1A1A1A]/70">Production Time Down</div>
+                    <div className="text-3xl font-bold text-[#CC5833]">4x</div>
+                    <div className="text-sm text-[#1A1A1A]/70">More qualified leads</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#CC5833]">3x</div>
-                    <div className="text-sm text-[#1A1A1A]/70">Campaign Velocity</div>
+                    <div className="text-3xl font-bold text-[#CC5833]">72</div>
+                    <div className="text-sm text-[#1A1A1A]/70">Hours saved weekly</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-[#CC5833]">↑</div>
-                    <div className="text-sm text-[#1A1A1A]/70">Team Satisfaction</div>
+                    <div className="text-3xl font-bold text-[#CC5833]">40+</div>
+                    <div className="text-sm text-[#1A1A1A]/70">Clients deployed</div>
                   </div>
                 </div>
               </div>
