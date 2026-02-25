@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Navigation from './Navigation';
 
 const BlogIndex = () => {
   const navigate = useNavigate();
@@ -54,19 +55,7 @@ const BlogIndex = () => {
   return (
     <div className="min-h-screen bg-[#F2F0E9] text-[#1A1A1A] font-['Plus_Jakarta_Sans']">
       {/* Header */}
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-40 w-[95%] max-w-4xl">
-        <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-6 py-4 rounded-full flex justify-between items-center shadow-xl">
-          <button 
-            onClick={() => navigate('/')}
-            className="font-bold tracking-tighter text-[#2E4036] text-lg hover:opacity-70 transition-opacity"
-          >
-            GOLDSMITH
-          </button>
-          <div className="text-sm font-medium text-[#1A1A1A]/60">
-            The Automation Playbook
-          </div>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Hero */}
       <div className="pt-32 pb-16 px-6 md:px-12">

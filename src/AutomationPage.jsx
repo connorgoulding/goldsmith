@@ -2,10 +2,11 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Navigation from './Navigation';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const LandingPage = () => {
+const AutomationPage = () => {
   const navigate = useNavigate();
   const mainRef = useRef(null);
   const heroRef = useRef(null);
@@ -56,22 +57,7 @@ const LandingPage = () => {
       </div>
 
       {/* A. NAVBAR: The Floating Island */}
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-4xl">
-        <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-4 md:px-8 py-4 rounded-full flex justify-between items-center shadow-2xl transition-all duration-500 hover:w-full">
-          <div className="font-bold tracking-tighter text-[#2E4036] text-lg md:text-xl">GOLDSMITH</div>
-          <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
-            <button onClick={() => { navigate('/'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">CONSULTING</button>
-            <button onClick={() => { navigate('/marketing'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">MARKETING</button>
-            <button onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">BLOG</button>
-          </div>
-          <button 
-            onClick={() => navigate('/scan')}
-            className="bg-[#2E4036] text-white px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-bold hover:scale-105 transition-transform active:scale-95"
-          >
-            Get Audit
-          </button>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* B. HERO SECTION: Operations is the Algorithm */}
       <section ref={heroRef} className="relative h-screen w-full flex items-end p-12 md:p-24 overflow-hidden">
@@ -286,4 +272,4 @@ const ProtocolScheduler = () => (
   </div>
 );
 
-export default LandingPage;
+export default AutomationPage;

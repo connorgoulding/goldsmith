@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import Navigation from './Navigation';
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -735,22 +736,7 @@ const BlogPost = () => {
   return (
     <div className="min-h-screen bg-[#F2F0E9] text-[#1A1A1A] font-['Plus_Jakarta_Sans']">
       {/* Header */}
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-40 w-[95%] max-w-4xl">
-        <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-6 py-4 rounded-full flex justify-between items-center shadow-xl">
-          <button 
-            onClick={() => navigate('/')}
-            className="font-bold tracking-tighter text-[#2E4036] text-lg hover:opacity-70 transition-opacity"
-          >
-            GOLDSMITH
-          </button>
-          <button 
-            onClick={() => navigate('/blog')}
-            className="text-sm font-medium text-[#1A1A1A]/60 hover:text-[#CC5833] transition-colors"
-          >
-            ← Back to Blog
-          </button>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Article */}
       <article className="pt-32 pb-24 px-6 md:px-12">
