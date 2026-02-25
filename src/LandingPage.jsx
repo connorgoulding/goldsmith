@@ -61,9 +61,9 @@ const LandingPage = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-[#2E4036] via-[#2E4036]/60 to-transparent" />
         </div>
         <div className="relative z-10 max-w-4xl">
-          <h1 className="text-white leading-[0.9] hero-text">
-            <span className="block text-3xl md:text-5xl font-light tracking-wide mb-4 opacity-80">They give you PowerPoints.</span>
-            <span className="block text-6xl md:text-[10rem] font-serif italic font-light tracking-tighter">We give you working systems.</span>
+          <h1 className="text-white leading-[0.85] hero-text">
+            <span className="block text-4xl md:text-6xl font-bold tracking-tight mb-2">They sell you plans.</span>
+            <span className="block text-6xl md:text-[10rem] font-serif italic font-light tracking-tighter">We build the machine.</span>
           </h1>
           <p className="hero-text text-white/80 mt-8 max-w-xl text-lg font-light leading-relaxed">
             Operations, AI, and marketing — one team that diagnoses AND builds. Not another 200-slide presentation. Actual working systems in 4-8 weeks.
@@ -92,25 +92,25 @@ const LandingPage = () => {
           <div className="space-y-8">
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200">
               <p className="text-xl text-[#1A1A1A]/80 leading-relaxed mb-4">
-                You paid McKinsey $500K. They handed you a 200-slide deck and walked away.
+                You hired the strategy firm. They delivered a beautiful plan. Then they left.
               </p>
             </div>
 
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200">
               <p className="text-xl text-[#1A1A1A]/80 leading-relaxed mb-4">
-                You paid the AI agency $50K. They built a chatbot that hallucinates your pricing and insults your customers.
+                You hired the AI agency. They built a prototype. It broke in production.
               </p>
             </div>
 
-            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-200">
+            <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-slate-200">
               <p className="text-xl text-[#1A1A1A]/80 leading-relaxed mb-4">
-                You paid the marketing firm $30K/month. They ran ads and sent you reports nobody read.
+                You hired the marketing consultants. They gave you reports. Your team is still drowning.
               </p>
             </div>
 
             <div className="bg-[#CC5833] rounded-3xl p-8 md:p-12 shadow-xl text-white">
               <p className="text-2xl md:text-3xl font-bold leading-tight">
-                Nobody actually fixed anything.
+                Plans don't ship. Systems do.
               </p>
             </div>
           </div>
