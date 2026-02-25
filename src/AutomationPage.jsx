@@ -60,7 +60,7 @@ const LandingPage = () => {
         <div className="bg-white/60 backdrop-blur-xl border border-white/20 px-4 md:px-8 py-4 rounded-full flex justify-between items-center shadow-2xl transition-all duration-500 hover:w-full">
           <div className="font-bold tracking-tighter text-[#2E4036] text-lg md:text-xl">GOLDSMITH</div>
           <div className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest opacity-80">
-            <button onClick={() => { navigate('/automation'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">AUTOMATION</button>
+            <button onClick={() => { navigate('/'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">CONSULTING</button>
             <button onClick={() => { navigate('/marketing'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">MARKETING</button>
             <button onClick={() => { navigate('/blog'); window.scrollTo(0, 0); }} className="hover:text-[#CC5833] transition-colors">BLOG</button>
           </div>
