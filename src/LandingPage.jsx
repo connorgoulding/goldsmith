@@ -55,7 +55,7 @@ const LandingPage = () => {
       <Navigation />
 
       {/* HERO SECTION */}
-      <section className="relative h-screen w-full flex items-end pt-32 pb-12 px-12 md:pt-40 md:pb-24 md:px-24 overflow-hidden">
+      <section className="relative h-screen w-full flex items-end pt-32 pb-12 px-6 md:pt-52 md:pb-24 md:px-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2560" className="w-full h-full object-cover scale-110" alt="Executive Office" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#2E4036] via-[#2E4036]/60 to-transparent" />
