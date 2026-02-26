@@ -357,16 +357,16 @@ const MarketingCMOPage = () => {
             </div>
             <div className="text-white/80 space-y-4">
               <p>
-                I didn't start as a developer. I started as a marketing strategist — CMO-level consulting for growth-stage companies.
+                We didn't start as developers. We started as marketing strategists — CMO-level consulting for growth-stage companies.
               </p>
               <p>
-                I know what it's like to pitch the board on pipeline while your team is stuck in production hell.
+                We know what it's like to pitch the board on pipeline while your team is stuck in production hell.
               </p>
               <p>
-                Then I discovered what AI can actually do. Not the ChatGPT hype — real operational systems that eliminate the work nobody wants to do.
+                Then we discovered what AI can actually do. Not the ChatGPT hype — real operational systems that eliminate the work nobody wants to do.
               </p>
               <p className="text-[#D4BE2E] font-semibold">
-                Now I combine both: I understand your marketing problem, and I can build the solution.
+                Now we combine both: We understand your marketing problem, and we can build the solution.
               </p>
             </div>
           </div>
@@ -380,7 +380,7 @@ const MarketingCMOPage = () => {
             Book a 30-Minute Marketing Operations Audit
           </h2>
           <p className="text-xl text-[#1A1A1A]/70 mb-8 max-w-2xl mx-auto">
-            I'll analyze one of your workflows live and show you exactly what to automate. No pitch. Just a clear plan you can use — with me or without me.
+            We'll analyze one of your workflows live and show you exactly what to automate. No pitch. Just a clear plan you can use — with us or without us.
           </p>
           <button 
             onClick={() => navigate('/scan')}
