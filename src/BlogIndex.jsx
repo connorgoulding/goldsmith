@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 const BlogIndex = () => {
   const navigate = useNavigate();
@@ -126,16 +127,7 @@ const BlogIndex = () => {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-[#1A1A1A] text-white py-12 px-6">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="font-bold tracking-tighter text-xl">GOLDSMITH</div>
-          <div className="flex gap-8 text-sm font-medium uppercase tracking-widest opacity-60">
-            <button onClick={() => navigate('/')} className="hover:text-[#CC5833] transition-colors">Home</button>
-            <button onClick={() => navigate('/scan')} className="hover:text-[#CC5833] transition-colors">Scan</button>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

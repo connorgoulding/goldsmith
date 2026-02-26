@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -401,15 +402,7 @@ const MarketingCMOPage = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-[#1A1A1A] text-white py-12 px-6">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center">
-          <div className="font-bold tracking-tighter text-xl mb-4 md:mb-0">GOLDSMITH</div>
-          <div className="text-sm opacity-60">
-            Marketing Automation for CMOs
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

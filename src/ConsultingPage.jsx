@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -297,29 +298,7 @@ const ConsultingPage = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="bg-[#1A1A1A] text-white pt-16 md:pt-32 pb-8 md:pb-12 px-6 md:px-12 rounded-t-[2rem] md:rounded-t-[4rem]">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-end gap-8 md:gap-12">
-          <div>
-            <h4 className="text-[15vw] md:text-[12vw] font-bold tracking-tighter leading-none mb-6 md:mb-12">GOLDSMITH.</h4>
-            <div className="flex gap-4 items-center font-mono text-xs uppercase tracking-[0.2em] text-white/40">
-              <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-              System Operational
-            </div>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 mb-4">
-            <ul className="space-y-3 md:space-y-4 text-xs md:text-sm font-medium uppercase tracking-widest opacity-60">
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/consulting')}>Consulting</li>
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/automation')}>Automation</li>
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/marketing')}>Marketing</li>
-            </ul>
-            <ul className="space-y-3 md:space-y-4 text-xs md:text-sm font-medium uppercase tracking-widest opacity-60">
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/blog')}>Blog</li>
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/scan')}>Get Audit</li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -206,34 +207,7 @@ const AutomationPage = () => {
         </div>
       </section>
 
-      {/* F. FOOTER */}
-      <footer className="bg-[#1A1A1A] text-white pt-32 pb-12 px-12 rounded-t-[4rem]">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-12">
-          <div>
-            <h4 className="text-[8vw] font-bold tracking-tighter leading-none mb-12">GOLDSMITH.</h4>
-            <div className="flex gap-4 items-center font-mono text-xs uppercase tracking-[0.2em] text-white/40">
-              <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-              System Operational: v4.2.0
-            </div>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-16 mb-4">
-            <ul className="space-y-4 text-sm font-medium uppercase tracking-widest opacity-60">
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/blog')}>Blog</li>
-              <li className="hover:text-[#CC5833] cursor-pointer">Archive</li>
-              <li className="hover:text-[#CC5833] cursor-pointer">Privacy</li>
-            </ul>
-            <ul className="space-y-4 text-sm font-medium uppercase tracking-widest opacity-60">
-              <li className="hover:text-[#CC5833] cursor-pointer">LinkedIn</li>
-              <li className="hover:text-[#CC5833] cursor-pointer">Insta</li>
-              <li className="hover:text-[#CC5833] cursor-pointer">Terminal</li>
-            </ul>
-            <ul className="space-y-4 text-sm font-medium uppercase tracking-widest opacity-60 hidden md:block">
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/scan')}>Get Audit</li>
-              <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => navigate('/#philosophy')}>Process</li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
