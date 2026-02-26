@@ -149,6 +149,63 @@ const AutomationPage = () => {
         <ProtocolCard title="Continuous Optimization" num="03" color="bg-[#1A1A1A]" />
       </section>
 
+      {/* PRICING */}
+      <section className="relative py-24 px-6 md:px-12 bg-[#F2F0E9]">
+        <div className="max-w-4xl mx-auto">
+          <div className="mb-16">
+            <span className="text-[#CC5833] text-sm font-bold uppercase tracking-widest">Investment</span>
+            <h2 className="text-4xl md:text-6xl font-bold text-[#2E4036] mt-4 leading-tight">
+              Simple Pricing.<br/>Serious Results.
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
+              <div className="text-5xl font-bold text-[#CC5833] mb-4">$2,500</div>
+              <h3 className="text-xl font-bold text-[#2E4036] mb-2">Phase 1: Automation Audit</h3>
+              <p className="text-[#1A1A1A]/70 mb-4">We map your workflows, identify bottlenecks, and build a prioritized roadmap.</p>
+              <ul className="space-y-2 text-sm text-[#1A1A1A]/80">
+                <li>✓ Complete workflow analysis</li>
+                <li>✓ ROI calculation per automation</li>
+                <li>✓ Prioritized build roadmap</li>
+                <li>✓ Go/no-go decision framework</li>
+              </ul>
+            </div>
+
+            <div className="bg-[#2E4036] rounded-3xl p-8 shadow-xl border border-[#2E4036] transform md:scale-105">
+              <div className="inline-block bg-[#D4BE2E] text-[#152546] text-xs font-bold px-3 py-1 rounded-full mb-4">Most Popular</div>
+              <div className="text-5xl font-bold text-white mb-4">$5-30K</div>
+              <h3 className="text-xl font-bold text-white mb-2">Phase 2: The Build</h3>
+              <p className="text-white/70 mb-4">Working automations in 4-8 weeks. Custom OpenClaw skills built for your exact workflow.</p>
+              <ul className="space-y-2 text-sm text-white/80">
+                <li>✓ Custom automation systems</li>
+                <li>✓ Your tool integrations</li>
+                <li>✓ Team training included</li>
+                <li>✓ 60 days optimization</li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
+              <div className="text-5xl font-bold text-[#CC5833] mb-4">$2K+/mo</div>
+              <h3 className="text-xl font-bold text-[#2E4036] mb-2">Phase 3: Optimization</h3>
+              <p className="text-[#1A1A1A]/70 mb-4">Stay on as your automation partner. New workflows, continuous improvement.</p>
+              <ul className="space-y-2 text-sm text-[#1A1A1A]/80">
+                <li>✓ Unlimited new automations</li>
+                <li>✓ System maintenance</li>
+                <li>✓ Quarterly optimization reviews</li>
+              </ul>
+            </div>
+          </div>
+          
+          {/* Pricing Disclaimer */}
+          <div className="mt-12 p-6 bg-[#2E4036]/5 rounded-2xl border border-[#2E4036]/10">
+            <p className="text-sm text-[#1A1A1A]/60 text-center">
+              <span className="font-semibold text-[#2E4036]">Note:</span> Every business is different. Final pricing depends on scope, complexity, and timeline. We'll give you a precise quote after the audit — no surprises, ever.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* F. FOOTER */}
       <footer className="bg-[#1A1A1A] text-white pt-32 pb-12 px-12 rounded-t-[4rem]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-12">

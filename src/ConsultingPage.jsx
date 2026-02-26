@@ -239,8 +239,19 @@ const ConsultingPage = () => {
       {/* PROCESS SECTION */}
       <section className="relative">
         <ProcessCard title="Consulting Audit" num="01" subtitle="We diagnose your operations, assess AI readiness, audit your marketing. One week. $2,500." color="bg-[#2E4036]" />
-        <ProcessCard title="The Build" num="02" subtitle="Working systems in 4-8 weeks. Custom. Not templates. $15K-75K." color="bg-[#CC5833]" />
-        <ProcessCard title="Optimization" num="03" subtitle="Stay on as your operating partner. $5-15K/month." color="bg-[#1A1A1A]" />
+        <ProcessCard title="The Build" num="02" subtitle="Working systems in 4-8 weeks. Custom. Not templates. $15K+." color="bg-[#CC5833]" />
+        <ProcessCard title="Optimization" num="03" subtitle="Stay on as your operating partner. $2K+/mo." color="bg-[#1A1A1A]" />
+      </section>
+
+      {/* Pricing Disclaimer */}
+      <section className="bg-[#F2F0E9] py-12 px-6 md:px-24">
+        <div className="max-w-4xl mx-auto">
+          <div className="p-6 bg-[#2E4036]/5 rounded-2xl border border-[#2E4036]/10">
+            <p className="text-sm text-[#1A1A1A]/60 text-center">
+              <span className="font-semibold text-[#2E4036]">Note:</span> Every business is different. Final pricing depends on scope, complexity, and timeline. We'll give you a precise quote after the audit — no surprises, ever.
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* CREDIBILITY */}

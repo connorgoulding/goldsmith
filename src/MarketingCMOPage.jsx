@@ -320,7 +320,7 @@ const MarketingCMOPage = () => {
 
             <div className="bg-[#2E4036] rounded-3xl p-8 shadow-xl border border-[#2E4036] transform md:scale-105">
               <div className="inline-block bg-[#D4BE2E] text-[#152546] text-xs font-bold px-3 py-1 rounded-full mb-4">Most Popular</div>
-              <div className="text-5xl font-bold text-white mb-4">$15-40K</div>
+              <div className="text-5xl font-bold text-white mb-4">$5-30K</div>
               <h3 className="text-xl font-bold text-white mb-2">Phase 2: The Build</h3>
               <p className="text-white/70 mb-4">Custom AI systems built for your exact workflow. Not templates.</p>
               <ul className="space-y-2 text-sm text-white/80">
@@ -332,7 +332,7 @@ const MarketingCMOPage = () => {
             </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-xl border border-slate-200">
-              <div className="text-5xl font-bold text-[#CC5833] mb-4">$5K/mo</div>
+              <div className="text-5xl font-bold text-[#CC5833] mb-4">$2K+/mo</div>
               <h3 className="text-xl font-bold text-[#2E4036] mb-2">Phase 3: Optimization</h3>
               <p className="text-[#1A1A1A]/70 mb-4">New campaigns. New channels. We keep your systems running and evolving.</p>
               <ul className="space-y-2 text-sm text-[#1A1A1A]/80">
@@ -341,6 +341,13 @@ const MarketingCMOPage = () => {
                 <li>✓ Quarterly reviews</li>
               </ul>
             </div>
+          </div>
+          
+          {/* Pricing Disclaimer */}
+          <div className="mt-12 p-6 bg-[#2E4036]/5 rounded-2xl border border-[#2E4036]/10">
+            <p className="text-sm text-[#1A1A1A]/60 text-center">
+              <span className="font-semibold text-[#2E4036]">Note:</span> Every business is different. Final pricing depends on scope, complexity, and timeline. We'll give you a precise quote after the audit — no surprises, ever.
+            </p>
           </div>
         </div>
       </section>
