@@ -1,0 +1,5 @@
+MEMORY.md
+memory/
+*.key
+*.pem
+.env*
