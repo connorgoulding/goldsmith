@@ -19,7 +19,7 @@ const Footer = () => {
             System Operational: v4.2.0
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 mb-4">
+        <div className="grid grid-cols-2 gap-12 md:gap-24 mb-4">
           <ul className="space-y-3 md:space-y-4 text-xs md:text-sm font-medium uppercase tracking-widest opacity-60">
             <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => handleNav('/blog')}>BLOG</li>
             <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => handleNav('/')}>CONSULTING</li>
@@ -27,7 +27,7 @@ const Footer = () => {
           </ul>
           <ul className="space-y-3 md:space-y-4 text-xs md:text-sm font-medium uppercase tracking-widest opacity-60">
             <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => handleNav('/automation')}>AUTOMATION</li>
-            <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => window.open('https://www.linkedin.com/company/goldsmith-growth', '_blank')}>LINKEDIN</li>
+            <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => window.open('https://linkedin.com/in/connorgouldingmiles', '_blank')}>LINKEDIN</li>
             <li className="hover:text-[#CC5833] cursor-pointer" onClick={() => handleNav('/privacy')}>PRIVACY</li>
           </ul>
         </div>
