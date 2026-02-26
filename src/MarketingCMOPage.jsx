@@ -67,11 +67,11 @@ const MarketingCMOPage = () => {
         </div>
         <div className="relative z-10 max-w-4xl">
           <h1 className="text-white leading-[0.9] hero-text">
-            <span className="block text-4xl md:text-6xl font-bold tracking-tight mb-2">Your Best Marketer Is</span>
-            <span className="block text-6xl md:text-[10rem] font-serif italic font-light tracking-tighter">Building Pivot Tables.</span>
+            <span className="block text-5xl md:text-7xl font-bold tracking-tight">Is Your Marketing</span>
+            <span className="block text-6xl md:text-[10rem] font-serif italic font-light tracking-tighter">Falling Behind?</span>
           </h1>
           <p className="hero-text text-white/80 mt-8 max-w-lg text-lg font-light leading-relaxed">
-            We build AI systems that eliminate production work — so your marketing team can focus on strategy, not spreadsheets.
+            AI is reshaping marketing overnight. Companies that don't automate their follow-up and creative operations are losing ground. Fast.
           </p>
           <div className="hero-text mt-8">
             <button 
